@@ -11,3 +11,5 @@ output "sample" {
 output "sample1" {
   value = "hey, ${var.sample}"
 }
+
+variable "sample6" {}

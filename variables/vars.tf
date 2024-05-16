@@ -1,8 +1,9 @@
 variable "sample" {
   default = "hello"
 }
+# variable is not a combination then var.sample if its combining with any other string $var.sample
 
-# Variable is not a combination then var.sample if its combinig with other string then ${var.sample}
+
 output "sample" {
   value = var.sample
 }
